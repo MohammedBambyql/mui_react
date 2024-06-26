@@ -4,20 +4,20 @@ import TourCard from "./TourCard";
 function CiteName() {
   return (
     <>
-      {data.map((cite, index) => (
+      {data.map((cite) => (
         <>
           <Typography
             variant="h4"
             component="h2"
             marginBottom={3}
             marginTop={5}
-            key={index}
+            key={cite.id}
           >
             Top {cite.name} Tours
           </Typography>
           <Grid container spacing={5}>
-            {cite.tours.map((tour, index) => (
-              <TourCard tour={tour} key={index} />
+            {cite.tours.map((tour) => (
+              <TourCard tour={tour} key={tour.id} />
             ))}
           </Grid>
         </>

@@ -1,4 +1,4 @@
-import { BottomNavigation, Box, Paper, Typography } from "@mui/material";
+import { Box, Typography, Paper, BottomNavigation } from "@mui/material";
 import Container from "@mui/material/Container";
 import ImageCollage from "../components/ImageCollage";
 import Accordion from "../components/Accordion";
